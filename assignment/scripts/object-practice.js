@@ -8,8 +8,16 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
+
+
+
 const me = {
   // TODO - add properties here
+  firstName: 'Mitch',
+  lastName: 'Ludkey',
+  hasSiblings: true ,
+  shoeCount: 4 ,
+  favThreeFoods: ['Tacos','Sarmale','Curry']
 };
 console.log('A little about me:', me);
 
@@ -19,13 +27,16 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
+let fullName = me.firstName + ' ' + me.lastName
+console.log(fullName)
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log(me.favThreeFoods[0],' First fav food')
+console.log(me.favThreeFoods[0],' Last fav food')
 
 
 
