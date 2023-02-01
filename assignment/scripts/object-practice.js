@@ -28,7 +28,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 let fullName = me.firstName + ' ' + me.lastName
+let fullNameOtherMethod = `${me.firstName} ${me.lastName}` //did this for notes
 console.log(fullName)
+console.log(fullNameOtherMethod)
 
 
 /* 3. Nested arrays
@@ -57,3 +59,6 @@ console.log(me.shoeCount, 'current shoe count after getting new pair')
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'Green'
+console.log(me)
